@@ -9,7 +9,7 @@ fn main() {
     println!("Please input your guess.");
     let secret_number = rand::thread_rng().gen_range(1..=100);
     let mut guess = String::new();
-    // the main function of the readline() method is to read user input push /append to the string passed to it so it is very nessary to make the input string
+    // the main function of the readline() method is to read user input push /append to the string passed to it so it is very nessary to make the input string ....
     io::stdin().read_line(&mut guess).expect("Failed to read line");
     // here i shadowed previously declared guess variable
     // or i can say i converted one type to another
